@@ -2,7 +2,7 @@ package model
 
 case class TrainingModel(feature1: Double,
                          feature2: Option[Double],
-                         feature3: Float,
+                         feature3: Double,
                          feature4: Boolean,
                          feature5: Int,
                          feature6: Option[Boolean],
