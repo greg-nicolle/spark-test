@@ -2,7 +2,7 @@ package job
 
 import utils.SparkUtils
 
-class ClassificationTrainerJob extends SparkUtils {
+class RegressionTrainerJob extends SparkUtils {
 
   def run(): Unit = {
 
